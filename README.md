@@ -15,5 +15,6 @@ UIAutomatorViewer
 
 
 
-*** _ Lists the application start screen
+*** _ 
+Lists the application start screen:
 adb shell "cmd package resolve-activity --brief com.google.android.gm | tail -n 1"
